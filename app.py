@@ -27,7 +27,7 @@ selected_models = st.multiselect("Select models:", models)
 #Initialize OpenAI client
 client=OpenAI(
     base_url="https://integrate.api.nvidia.com/v1",
-    api_key="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"
+    api_key=""
 )
     
 # Generate when the user clicks the button
